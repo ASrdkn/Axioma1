@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+
+html, body{
+    height: 100%;
+    font-family: Roboto Condensed;
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 64px;
+    font-weight: 700;
+    margin: 0;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+}
+p{
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0;
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    min-width: 320px;
+    max-width: 1202px;
+    margin: 0 auto;
+}
+
+main.main{
+    flex: 1 1 auto;
+}
+
+.btn{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    border: 2px solid #C91C98;
+    border-radius: 100px;
+    padding: 5px 32px;
+    text-align: center;
+}
+
+.card{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 24px;
+    height: 230px;
+    color: black;
+    background-color: white;
+    border: 2px solid #eaeaea;
+    border-radius: 10px;
+}
+
+/* HEADER */
+.header{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.header_logo{
+    max-width: 100%;
+    width: 180px;
+    height: 40px; 
+}
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_menu-item:last-child{
+    margin-right: 0;
+}
+
+.header_menu-link{
+    font-family: Roboto Condensed;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header_menu-link:hover{
+    text-shadow: 0 0 0.6px;
+}
+
+.header_menu-link_active{
+    font-weight: 500;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url(/img/menu.svg);
+    
+}
+
+.navbar-toggler:focus {
+  box-shadow: none; /* Убирает тень при фокусе (когда кнопка нажата) */
+}
+
+.navbar-nav{
+    padding-top: 15px;
+}
+
+
+/* BANNER */
+/* .banner{
+    padding-bottom: 50px;
+} */
+
+.banner_content p{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+/* ADVANTAGE */
+
+.servicies{
+    background-image: url(/img/bg-servicies.svg);
+}
+
+.card img{
+    width: 40px;
+    height: 40px;
+}
