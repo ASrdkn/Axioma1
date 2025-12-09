@@ -68,30 +68,10 @@ main.main{
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
-.card{
-    position: relative;
-    padding-left: 20px;
-    padding-top: 10px;
-    font-weight: 400;
-    font-size: 24px;
-    height: 230px;
-    color: black;
-    background-color: white;
-    border: 2px solid #eaeaea;
-    border-radius: 10px;
-    transition: all 0.3s ease;
-}
-
-.card:hover{
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    border-color: #D5D4D4;
-}
 
 /* HEADER */
-
 .navbar-nav .nav-link {
-  color: #000 !important; /* чёрный */
+  color: #000 !important;
   font-weight: 400;
   font-size: 20px;
 }
@@ -111,86 +91,38 @@ main.main{
     border: none;
 }
 
-
-
-
-
-
-
+/* BANNER */
 .banner_content p{
     font-weight: 400;
     font-size: 24px;
 }
 
-/* ADVANTAGE */
+/* CARD */
 
-.servicies{
-    background-image: url(/img/home/bg-servicies.svg);
-}
-
-.card_arrow{
-    position: absolute;
-    bottom: 10px;
-    right: 15px;
-    width: 40px;
-    height: 40px;
-}
-
-
-
-
-
-.tariff-price {
-   font-weight: 500;
-   font-size: 30px; 
-}
-
-.tariff-card{
-    color: black;
-    background-color: white;
+.servicies_card{
     border: 2px solid #eaeaea;
-    border-radius: 10px;
-    transition: all 0.3s ease;
+    border-radius: 20px;
 }
 
-.properties{
+.servicies_card h3{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 24px;
+    color: #c91c98;
+}
+
+.servicies_card li{
+    list-style-type: disc;
     font-weight: 300;
-    font-size: 24px;
-    color: black;
-    background-color: white;
-    border: 2px solid #eaeaea;
-    border-left: none;
-    border-right: none;
+    color: #000;
 }
 
-.link_all_tariffs{
-    font-weight: 300;
-    font-size: 24px;
-    display: inline-flex;
-    align-items: center;
-    gap: 4px; /* расстояние между текстом и стрелкой */
-    transition: all 0.3s ease;
-}
-.link_all_tariffs:hover {
-  color: #C91C98;
-}
-.arrow_tariffs{
-    width: 26px;
-    height: 26px;
-}
-
-
-
-.btn_connection{
-    font-weight: 400;
-    font-size: 24px;
-    width: 230px;
-    height: 40px;
-    /* padding-left: 25px;
-    padding-right: 25px; */
-    border: 2px solid #eaeaea;
-    background-color: white;
-    border-radius: 100px;
+.servicies_card:hover{
+  color: black;
+  background-color: white;
+  border-color: #C91C98;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 /* FOOTER */

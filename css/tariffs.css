@@ -68,30 +68,10 @@ main.main{
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
-.card{
-    position: relative;
-    padding-left: 20px;
-    padding-top: 10px;
-    font-weight: 400;
-    font-size: 24px;
-    height: 230px;
-    color: black;
-    background-color: white;
-    border: 2px solid #eaeaea;
-    border-radius: 10px;
-    transition: all 0.3s ease;
-}
-
-.card:hover{
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    border-color: #D5D4D4;
-}
 
 /* HEADER */
-
 .navbar-nav .nav-link {
-  color: #000 !important; /* чёрный */
+  color: #000 !important;
   font-weight: 400;
   font-size: 20px;
 }
@@ -111,46 +91,60 @@ main.main{
     border: none;
 }
 
-
-
-
-
-
-
+/* BANNER */
 .banner_content p{
     font-weight: 400;
     font-size: 24px;
 }
 
-/* ADVANTAGE */
-
-.servicies{
-    background-image: url(/img/home/bg-servicies.svg);
+/* LIST ADVANTAGES */
+.tariffs_advantages {
+  padding: 0;
+  margin: 0;
 }
 
-.card_arrow{
-    position: absolute;
-    bottom: 10px;
-    right: 15px;
-    width: 40px;
-    height: 40px;
+.advantages {
+  list-style: none; 
+  padding-left: 0; 
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5; 
 }
 
-
-
-
-
-.tariff-price {
-   font-weight: 500;
-   font-size: 30px; 
+.advantages li {
+  position: relative;
+  padding-left: 1.5rem; 
+font-weight: 300;
 }
 
+.advantage-title{
+    font-weight: 400;
+}
+
+.advantages li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #C91C98; 
+  font-size: 1.4em;
+  line-height: 1;
+  font-weight: bold;
+}
+
+/* TARIFF CARD */
 .tariff-card{
     color: black;
     background-color: white;
     border: 2px solid #eaeaea;
     border-radius: 10px;
     transition: all 0.3s ease;
+}
+
+.tariff-price {
+   font-weight: 500;
+   font-size: 30px; 
 }
 
 .properties{
@@ -161,36 +155,6 @@ main.main{
     border: 2px solid #eaeaea;
     border-left: none;
     border-right: none;
-}
-
-.link_all_tariffs{
-    font-weight: 300;
-    font-size: 24px;
-    display: inline-flex;
-    align-items: center;
-    gap: 4px; /* расстояние между текстом и стрелкой */
-    transition: all 0.3s ease;
-}
-.link_all_tariffs:hover {
-  color: #C91C98;
-}
-.arrow_tariffs{
-    width: 26px;
-    height: 26px;
-}
-
-
-
-.btn_connection{
-    font-weight: 400;
-    font-size: 24px;
-    width: 230px;
-    height: 40px;
-    /* padding-left: 25px;
-    padding-right: 25px; */
-    border: 2px solid #eaeaea;
-    background-color: white;
-    border-radius: 100px;
 }
 
 /* FOOTER */

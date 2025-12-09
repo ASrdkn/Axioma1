@@ -10,84 +10,51 @@
 </head>
 
 <body>
-  <!-- wrapper для всех элементов -->
   <div class="wrapper"> 
-    <header class="header">
-      <nav class="navbar navbar-expand-lg">
+    <header class="header my-2">
+      <nav class="navbar navbar-expand-lg m-0">
         <div class="container-fluid">
-      <!-- Мобильная версия -->
-          <div class="d-lg-none w-100">
-            <div class="d-flex justify-content-between align-items-center">
-              <a href="index.html" class="header_logo">
-                <img src="/img/main/Лого.svg" alt="logo">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </div>
-            <div class="collapse navbar-collapse mt-3" id="navbarSupportedContent">
-              <ul class="navbar-nav flex-column">
-                <li class="header_menu-item">
-                  <a class="header_menu-link header_menu-link_active" href="#">Главная</a>
-                </li>
-                <li class="header_menu-item">
-                  <a class="header_menu-link" href="#">Услуги</a>
-                </li>
-                <li class="header_menu-item">
-                  <a class="header_menu-link" href="#">Тарифы</a>
-                </li>
-                <li class="header_menu-item">
-                  <a class="header_menu-link" href="#">Оборудование</a>
-                </li>
-                <li class="header_menu-item">
-                  <a class="header_menu-link" href="#">Карта покрытия</a>
-                </li>
-                <li class="header_menu-item">
-                  <a class="header_menu-link" href="#">Контакты</a>
-                </li>
-                <li class="header_menu-item">
-                  <a class="header_menu-link" href="#">О нас</a>
-                </li>
-              </ul>
-            </div>
-          </div>
+          
+          <a class="navbar-brand header_logo me-auto" href="index.html">
+            <img src="/img/main/Лого.svg" alt="logo">
+          </a>
 
-          <!-- Десктопная версия (≥ lg) -->
-          <div class="d-none d-lg-block w-100">
-            <div class="row align-items-center g-0">
-              <div class="col-lg-4">
-                <a href="index.html" class="header_logo">
-                  <img src="/img/main/Лого.svg" alt="logo">
-                </a>
-              </div>
-              <div class="col-lg-8">
-                <ul class="header_menu d-flex justify-content-between list-unstyled m-0 p-0">
-                  <li class="header_menu-item">
-                    <a href="#" class="header_menu-link header_menu-link_active">Главная</a>
-                  </li>
-                  <li class="header_menu-item">
-                    <a href="#" class="header_menu-link">Услуги</a>
-                  </li>
-                  <li class="header_menu-item">
-                    <a href="#" class="header_menu-link">Тарифы</a>
-                  </li>
-                  <li class="header_menu-item">
-                    <a href="#" class="header_menu-link">Оборудование</a>
-                  </li>
-                  <li class="header_menu-item">
-                    <a href="#" class="header_menu-link">Карта покрытия</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+          <button class="navbar-toggler" type="button" 
+                  data-bs-toggle="collapse" 
+                  data-bs-target="#navbarSupportedContent" 
+                  aria-controls="navbarSupportedContent" 
+                  aria-expanded="false" 
+                  aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto ms-lg-auto">
+              <li class="nav-item">
+                <a class="nav-link header_menu-link header_menu-link_active py-0" href="home.html">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link header_menu-link py-0" href="servicies.html">Услуги</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link header_menu-link py-0" href="tariffs.html">Тарифы</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link header_menu-link py-0" href="#">Оборудование</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link header_menu-link py-0" href="#">Карта покрытия</a>
+              </li>
+            </ul>
           </div>
-         </div>
+        </div>
       </nav>
     </header>
+
     <main class="main">
 
       <section class="banner">
-        <div class="container-fluid mb-5 mt-3 mb-lg-5 mt-lg-5">
+        <div class="container-fluid mb-5 mt-3 mb-lg-5">
           <div class="row">
             <div class="col-lg-7 d-flex align-items-center">
               <div class="banner_content">
@@ -365,7 +332,7 @@
     </main>
   </div>
 <hr class="footer_line m-0">
-  <div class="wrapper">
+    <div class="wrapper">
     <footer class="footer">
           <div class="container-fluid">
             <div class="row d-flex align-items-center mt-4">
@@ -383,11 +350,11 @@
              </div>
 
              <div class="nav_footer col-12 col-lg-8 d-flex justify-content-center gap-3  mb-3 lg-mb-0">
-              <a href="#">FAQ</a>
-              <a href="#">Документы</a>
-              <a href="#">Для бизнеса</a>
-              <a href="#">О компании</a>
-              <a href="#">Личный кабинет</a>
+              <a href="#" class="footer_menu-link">FAQ</a>
+              <a href="#" class="footer_menu-link">Документы</a>
+              <a href="#" class="footer_menu-link">Для бизнеса</a>
+              <a href="#" class="footer_menu-link">О компании</a>
+              <a href="#" class="footer_menu-link">Личный кабинет</a>
              </div>
 
              <div class="col-12 col-lg-2 d-flex justify-content-center">
@@ -412,7 +379,7 @@
 
 
     </footer>
-  </div>
+    </div>
 
 
 
