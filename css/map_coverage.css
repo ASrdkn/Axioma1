@@ -48,31 +48,11 @@ main.main{
     flex: 1 1 auto;
 }
 
-.btn{
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 30px;
-    color: black;
-    background-color: white;
-    border: 2px solid #C91C98;
-    border-radius: 100px;
-    padding: 5px 32px;
-    text-align: center;
-    transition: all 0.3s ease;
-}
-
-.btn:hover {
-  color: black;
-  background-color: white;
-  border-color: #C91C98;
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-}
-
 
 /* HEADER */
+
 .navbar-nav .nav-link {
-  color: #000 !important;
+  color: #000 !important; /* чёрный */
   font-weight: 400;
   font-size: 20px;
 }
@@ -92,39 +72,17 @@ main.main{
     border: none;
 }
 
-/* BANNER */
+
+
+
+
+
+
 .banner_content p{
     font-weight: 400;
     font-size: 24px;
 }
 
-/* CARD */
-
-.servicies_card{
-    border: 2px solid #eaeaea;
-    border-radius: 20px;
-}
-
-.servicies_card h3{
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 24px;
-    color: #c91c98;
-}
-
-.servicies_card li{
-    list-style-type: disc;
-    font-weight: 300;
-    color: #000;
-}
-
-.servicies_card:hover{
-  color: black;
-  background-color: white;
-  border-color: #C91C98;
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-}
 
 /* FOOTER */
 .footer_line{
@@ -153,3 +111,4 @@ main.main{
 .footer_menu-link_active{
     font-weight: 500 !important;
 }
+

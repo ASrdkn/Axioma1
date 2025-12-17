@@ -3,6 +3,7 @@
 html, body{
     font-family: Roboto Condensed;
     /* background-color: #F8F8F8; */
+    color: #000;
 }
 
 li{
@@ -37,7 +38,7 @@ p{
     min-height: 100%;
     display: flex;
     flex-direction: column;
-
+    
     min-width: 320px;
     max-width: 1202px;
     margin: 0 auto;

@@ -48,27 +48,6 @@ main.main{
     flex: 1 1 auto;
 }
 
-.btn{
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 30px;
-    color: black;
-    background-color: white;
-    border: 2px solid #C91C98;
-    border-radius: 100px;
-    padding: 5px 32px;
-    text-align: center;
-    transition: all 0.3s ease;
-}
-
-.btn:hover {
-  color: black;
-  background-color: white;
-  border-color: #C91C98;
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-}
-
 
 /* HEADER */
 .navbar-nav .nav-link {
@@ -105,17 +84,24 @@ main.main{
     border-radius: 20px;
 }
 
-.servicies_card h3{
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 24px;
+.servicies_card h2{
     color: #c91c98;
+}
+
+.servicies_card strong{
+    font-weight: 500;
 }
 
 .servicies_card li{
     list-style-type: disc;
     font-weight: 300;
     color: #000;
+    font-size: 24px;
+}
+
+.servicies_card a{
+    font-weight: 500;
+    font-size: 24px;
 }
 
 .servicies_card:hover{

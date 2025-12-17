@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Группа компаний Аксиома</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/map_coverage.css">
+  <link rel="shortcut icon" href="/img/main/24.svg" type="image/x-icon">
+</head>
+
+<body>
+  <div class="wrapper"> 
+    <header class="header my-2">
+      <nav class="navbar navbar-expand-lg m-0">
+        <div class="container-fluid">
+          
+          <a class="navbar-brand header_logo me-auto" href="index.html">
+            <img src="/img/main/Лого.svg" alt="logo">
+          </a>
+
+          <button class="navbar-toggler" type="button" 
+                  data-bs-toggle="collapse" 
+                  data-bs-target="#navbarSupportedContent" 
+                  aria-controls="navbarSupportedContent" 
+                  aria-expanded="false" 
+                  aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto ms-lg-auto">
+              <li class="nav-item">
+                <a class="nav-link header_menu-link py-0" href="home.html">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link header_menu-link py-0" href="servicies.html">Услуги</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link header_menu-link py-0" href="tariffs.html">Тарифы</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link header_menu-link py-0" href="device.html">Оборудование</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link header_menu-link header_menu-link_active py-0" href="map_coverage.html">Карта покрытия</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+
+      <section class="banner">
+        <div class="container-fluid mb-5 mt-3 mb-lg-5">
+          <div class="row">
+            <div class="col-lg-7 d-flex align-items-center">
+              <div class="banner_content">
+                <h1 class="mb-1">Подключайся там, где мы работаем!</h1>
+                <p>Только у «АКСИОМЫ» — карта покрытия с детализацией до улиц и домов.</p>
+              </div>
+            </div>
+            <div class="col-lg-5 mt-5 mt-lg-0 d-flex justify-content-center align-items-center">
+              <img src="/img/map_coverage/peoplemap.svg" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="map_coverage mb-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="mb-4">Карта покрытия</h2>
+            </div>
+          </div>
+
+        <div class="map">
+            <div class="row">
+                <div class="col-12 mb-md-0 mb-3 text-center">
+                <!-- Обёртка для адаптивной карты -->
+                    <div style="position: relative; width: 100%; max-width: 100%; padding-top: 56.25%; /* 16:9 соотношение */">
+                        <!-- Карта — растягивается на всю область обёртки -->
+                        <iframe 
+                        src="https://yandex.ru/map-widget/v1/?um=constructor%3Af0adc8a6a2c877434a5b19a78d4443b4eadaf27bd4a46397676b250c7a70eb96&amp;source=constructor"
+                        frameborder="0"
+                        allowfullscreen="true"
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+      </section>
+    
+    </main>
+  </div>
+<hr class="footer_line m-0">
+    <div class="wrapper">
+    <footer class="footer">
+          <div class="container-fluid">
+            <div class="row d-flex align-items-center mt-4">
+             
+              <div class="col-12 col-lg-2 text-center mb-3 lg-mb-0">
+              <img src="/img/main/Лого.svg" alt="Логотип AXIOMA">
+              <div class="socialset mt-3">
+                <a href="https://vk.com/axioma24" target="_blank" class="mx-1">
+                  <img src="/img/main/vk.svg" alt="vk_icon">
+                </a>
+                <a href="https://t.me/axioma24krsk" target="_blank" class="mx-1">
+                  <img src="/img/main/tg.svg" alt="tg_icon">
+                </a>
+              </div>
+             </div>
+
+             <div class="nav_footer col-12 col-lg-8 d-flex justify-content-center gap-3  mb-3 lg-mb-0">
+              <a href="#" class="footer_menu-link">FAQ</a>
+              <a href="#" class="footer_menu-link">Документы</a>
+              <a href="business.html" class="footer_menu-link">Для бизнеса</a>
+              <a href="aboutus.html" class="footer_menu-link">О компании</a>
+              <a href="https://my.axioma24.ru/login/sendform=%2F" target="_blank" class="footer_menu-link">Личный кабинет</a>
+             </div>
+
+             <div class="col-12 col-lg-2 d-flex justify-content-center">
+              <div class="contact_info d-flex flex-column">
+                <a href="tel:+73912285555">
+                  <img src="/img/main/phone.svg" alt="Tel_icon" width="20" height="20">
+                  <span>+7(391)228-55-55</span>
+                </a>
+                <a href="mailto:info@axioma24.ru">
+                  <img src="/img/main/email.svg" alt="Email_icon" width="20" height="20">
+                  <span>info@axioma24.ru</span>
+                </a>
+              </div>
+             </div>
+            </div>
+            <div class="row">
+              <div class="col-12 d-flex justify-content-center mt-3">
+                <a href="#" class="konf">Политика конфиденциальности</a>
+              </div>
+            </div>
+          </div>
+
+
+    </footer>
+    </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+
+</html>
