@@ -142,6 +142,9 @@ font-weight: 300;
     border-radius: 10px;
     transition: all 0.3s ease;
 }
+.tariff-card:hover{
+    border: 2px solid #C91C98;
+}
 
 .tariff-price {
    font-weight: 500;
@@ -166,6 +169,7 @@ font-weight: 300;
 .nav_footer{
     font-weight: 400;
     font-size: 20px;
+    gap: 1rem;
 }
 
 .contact_info{
@@ -184,4 +188,11 @@ font-weight: 300;
 
 .footer_menu-link_active{
     font-weight: 500 !important;
+}
+
+@media (max-width: 767.98px) {
+  .nav_footer {
+    gap: 0rem; /* gap-1 */
+    /* или 0.5rem — gap-2 */
+  }
 }

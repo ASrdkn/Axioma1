@@ -120,6 +120,7 @@ main.main{
 .nav_footer{
     font-weight: 400;
     font-size: 20px;
+    gap: 1rem;
 }
 
 .contact_info{
@@ -138,4 +139,11 @@ main.main{
 
 .footer_menu-link_active{
     font-weight: 500 !important;
+}
+
+@media (max-width: 767.98px) {
+  .nav_footer {
+    gap: 0rem; /* gap-1 */
+    /* или 0.5rem — gap-2 */
+  }
 }

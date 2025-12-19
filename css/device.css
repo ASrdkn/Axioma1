@@ -50,28 +50,6 @@ main.main{
     flex: 1 1 auto;
 }
 
-.btn{
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 30px;
-    color: black;
-    background-color: white;
-    border: 2px solid #C91C98;
-    border-radius: 100px;
-    padding: 5px 32px;
-    text-align: center;
-    transition: all 0.3s ease;
-}
-
-.btn:hover {
-  color: black;
-  background-color: white;
-  border-color: #C91C98;
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-}
-
-
 /* HEADER */
 .navbar-nav .nav-link {
   color: #000 !important;
@@ -148,7 +126,7 @@ main.main{
     align-items: stretch;
     text-align: center;
     padding: 1.25rem;
-    border: 1px solid #e0e0e0;
+    border: 2px solid #e0e0e0;
     border-radius: 0.5rem;
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
     background: #fff;
@@ -156,7 +134,7 @@ main.main{
 }
 
 .device-card:hover {
-    transform: translateY(-4px);
+    border: 2px solid #C91C98;
     box-shadow: 0 6px 12px rgba(0,0,0,0.1);
 }
 
@@ -189,6 +167,7 @@ main.main{
     margin: 0;
 }
 
+
 /* FOOTER */
 .footer_line{
     border: 1.5px solid #D5D4D4;
@@ -197,6 +176,7 @@ main.main{
 .nav_footer{
     font-weight: 400;
     font-size: 20px;
+    gap: 1rem;
 }
 
 .contact_info{
@@ -215,5 +195,11 @@ main.main{
 
 .footer_menu-link_active{
     font-weight: 500 !important;
+}
+
+@media (max-width: 767.98px) {
+  .nav_footer {
+    gap: 0rem;
+  }
 }
 
