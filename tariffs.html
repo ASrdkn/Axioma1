@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Группа компаний Аксиома</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/tariffs.css">
   <link rel="shortcut icon" href="/img/main/24.svg" type="image/x-icon">
@@ -87,35 +88,38 @@
         </div>
       </section>
 
-      <section id="internet_tariffs" class="popular_tarifs mb-5">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-12">
-                  <h2 class="mb-4">Интернет</h2>
-                </div>
-              </div>
+      <section id="internet_tariffs" class="internet_tariffs mb-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="mb-4">Интернет</h2>
+            </div>
+          </div>
 
-              <div class="tariffs">
-                <div class="row g-3">
-                  <div class="col-xl-4">
+          <div class="row">
+            <div class="col-12">
+              <div class="swiper internet-tariffs-swiper tariffs-swiper">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide">
                     <div class="tariff-card d-flex flex-column">
                       <h3 class="text-center py-4 mb-0">Интернет 100</h3>
                       <ul class="properties list-unstyled p-4 mb-0">
-                        <li class="d-flex align-items-center mb-2">
-                          <img src="/img/main/speed.svg" alt="" class="me-2" width="24" height="24">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/speed.svg" alt="Скорость" class="me-2" width="24" height="24">
                           Скорость: 100 Мбит/с
                         </li>
-                        <li class="d-flex align-items-center mb-2">
-                          <img src="/img/main/pay.svg" alt="" class="me-2" width="24" height="24">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/pay.svg" alt="Списание" class="me-2" width="24" height="24">
                           Списание: ежедневно
                         </li>
                         <li class="d-flex align-items-center">
-                          <img src="/img/main/router.svg" alt="" class="me-2" width="24" height="24">
+                          <img src="/img/main/router.svg" alt="Аренда роутера" class="me-2" width="24" height="24">
                           Аренда роутера: +150р/мес.
                         </li>
                       </ul>
                       <div class="tariff-price text-center py-3">
-                        520р/мес.
+                        <strong>520</strong> ₽/мес.
                       </div>
                       <button class="btn align-self-center mb-4">
                         Подключиться
@@ -123,89 +127,132 @@
                     </div>
                   </div>
 
-                  <div class="col-xl-4">
+                  <div class="swiper-slide">
                     <div class="tariff-card d-flex flex-column">
                       <h3 class="text-center py-4 mb-0">Интернет 200</h3>
                       <ul class="properties list-unstyled p-4 mb-0">
-                        <li class="d-flex align-items-center mb-2">
-                          <img src="/img/main/speed.svg" alt="" class="me-2" width="24" height="24">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/speed.svg" alt="Скорость" class="me-2" width="24" height="24">
                           Скорость: 200 Мбит/с
                         </li>
-                        <li class="d-flex align-items-center mb-2">
-                          <img src="/img/main/pay.svg" alt="" class="me-2" width="24" height="24">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/pay.svg" alt="Списание" class="me-2" width="24" height="24">
                           Списание: ежедневно
                         </li>
                         <li class="d-flex align-items-center">
-                          <img src="/img/main/router.svg" alt="" class="me-2" width="24" height="24">
+                          <img src="/img/main/router.svg" alt="Аренда роутера" class="me-2" width="24" height="24">
                           Аренда роутера: +200р/мес.
                         </li>
                       </ul>
                       <div class="tariff-price text-center py-3">
-                        635р/мес.
+                        <strong>635</strong> ₽/мес.
                       </div>
                       <button class="btn align-self-center mb-4">
                         Подключиться
                       </button>
                     </div>
                   </div>
-                  <div class="col-xl-4">
+
+                  <div class="swiper-slide">
                     <div class="tariff-card d-flex flex-column">
                       <h3 class="text-center py-4 mb-0">Интернет 300</h3>
                       <ul class="properties list-unstyled p-4 mb-0">
-                        <li class="d-flex align-items-center mb-2">
-                          <img src="/img/main/speed.svg" alt="" class="me-2" width="24" height="24">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/speed.svg" alt="Скорость" class="me-2" width="24" height="24">
                           Скорость: 300 Мбит/с
                         </li>
-                        <li class="d-flex align-items-center mb-2">
-                          <img src="/img/main/pay.svg" alt="" class="me-2" width="24" height="24">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/pay.svg" alt="Списание" class="me-2" width="24" height="24">
                           Списание: ежедневно
                         </li>
                         <li class="d-flex align-items-center">
-                          <img src="/img/main/router.svg" alt="" class="me-2" width="24" height="24">
+                          <img src="/img/main/router.svg" alt="Аренда роутера" class="me-2" width="24" height="24">
                           Аренда роутера: +200р/мес.
                         </li>
                       </ul>
                       <div class="tariff-price text-center py-3">
-                        749р/мес.
+                        <strong>749</strong> ₽/мес.
                       </div>
                       <button class="btn align-self-center mb-4">
                         Подключиться
                       </button>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-      </section>
-      <section id="televidion_tariffs" class="popular_tarifs mb-5">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-12">
-                  <h2 class="mb-4">Телевидение</h2>
-                </div>
-              </div>
 
-              <div class="tariffs">
-                <div class="row g-3">
-                  <div class="col-xl-4">
+                  <div class="swiper-slide">
                     <div class="tariff-card d-flex flex-column">
-                      <h3 class="text-center py-4 mb-0">Интернет 100</h3>
+                      <h3 class="text-center py-4 mb-0">Интернет 500</h3>
                       <ul class="properties list-unstyled p-4 mb-0">
-                        <li class="d-flex align-items-center mb-2">
-                          <img src="/img/main/speed.svg" alt="" class="me-2" width="24" height="24">
-                          Скорость: 100 Мбит/с
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/speed.svg" alt="Скорость" class="me-2" width="24" height="24">
+                          Скорость: 500 Мбит/с
                         </li>
-                        <li class="d-flex align-items-center mb-2">
-                          <img src="/img/main/pay.svg" alt="" class="me-2" width="24" height="24">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/pay.svg" alt="Списание" class="me-2" width="24" height="24">
                           Списание: ежедневно
                         </li>
                         <li class="d-flex align-items-center">
-                          <img src="/img/main/router.svg" alt="" class="me-2" width="24" height="24">
+                          <img src="/img/main/router.svg" alt="Аренда роутера" class="me-2" width="24" height="24">
+                          Аренда роутера: +200р/мес.
+                        </li>
+                      </ul>
+                      <div class="tariff-price text-center py-3">
+                        <strong>1050</strong> ₽/мес.
+                      </div>
+                      <button class="btn align-self-center mb-4">
+                        Подключиться
+                      </button>
+                    </div>
+                  </div>
+
+                </div>
+
+                <!-- Пагинация и навигация -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="internettv_tariffs mb-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="mb-4">Интернет + ТВ</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <div class="swiper internettv-tariffs-swiper tariffs-swiper">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide">
+                    <div class="tariff-card d-flex flex-column">
+                      <h3 class="text-center py-4 mb-0">Интернет КТВ 100</h3>
+                      <ul class="properties list-unstyled p-4 mb-0">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/speed.svg" alt="Скорость" class="me-2" width="24" height="24">
+                          Скорость: 100 Мбит/с
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/tv.svg" alt="ТВ" class="me-2" width="24" height="24">
+                          Количество каналов: до 250
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/pay.svg" alt="Списание" class="me-2" width="24" height="24">
+                          Списание: ежедневно
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/router.svg" alt="Аренда роутера" class="me-2" width="24" height="24">
                           Аренда роутера: +150р/мес.
                         </li>
                       </ul>
                       <div class="tariff-price text-center py-3">
-                        520р/мес.
+                        <strong>690</strong> ₽/мес.
                       </div>
                       <button class="btn align-self-center mb-4">
                         Подключиться
@@ -213,89 +260,29 @@
                     </div>
                   </div>
 
-                  <div class="col-xl-4">
+                  <div class="swiper-slide">
                     <div class="tariff-card d-flex flex-column">
-                      <h3 class="text-center py-4 mb-0">Интернет 200</h3>
+                      <h3 class="text-center py-4 mb-0">Интернет ЦТВ 100</h3>
                       <ul class="properties list-unstyled p-4 mb-0">
-                        <li class="d-flex align-items-center mb-2">
-                          <img src="/img/main/speed.svg" alt="" class="me-2" width="24" height="24">
-                          Скорость: 200 Мбит/с
-                        </li>
-                        <li class="d-flex align-items-center mb-2">
-                          <img src="/img/main/pay.svg" alt="" class="me-2" width="24" height="24">
-                          Списание: ежедневно
-                        </li>
                         <li class="d-flex align-items-center">
-                          <img src="/img/main/router.svg" alt="" class="me-2" width="24" height="24">
-                          Аренда роутера: +200р/мес.
-                        </li>
-                      </ul>
-                      <div class="tariff-price text-center py-3">
-                        635р/мес.
-                      </div>
-                      <button class="btn align-self-center mb-4">
-                        Подключиться
-                      </button>
-                    </div>
-                  </div>
-                  <div class="col-xl-4">
-                    <div class="tariff-card d-flex flex-column">
-                      <h3 class="text-center py-4 mb-0">Интернет 300</h3>
-                      <ul class="properties list-unstyled p-4 mb-0">
-                        <li class="d-flex align-items-center mb-2">
-                          <img src="/img/main/speed.svg" alt="" class="me-2" width="24" height="24">
-                          Скорость: 300 Мбит/с
-                        </li>
-                        <li class="d-flex align-items-center mb-2">
-                          <img src="/img/main/pay.svg" alt="" class="me-2" width="24" height="24">
-                          Списание: ежедневно
-                        </li>
-                        <li class="d-flex align-items-center">
-                          <img src="/img/main/router.svg" alt="" class="me-2" width="24" height="24">
-                          Аренда роутера: +200р/мес.
-                        </li>
-                      </ul>
-                      <div class="tariff-price text-center py-3">
-                        749р/мес.
-                      </div>
-                      <button class="btn align-self-center mb-4">
-                        Подключиться
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-      </section>
-      <section id="telephon_tariffs" class="popular_tarifs mb-5">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-12">
-                  <h2 class="mb-4">Телефония</h2>
-                </div>
-              </div>
-
-              <div class="tariffs">
-                <div class="row g-3">
-                  <div class="col-xl-4">
-                    <div class="tariff-card d-flex flex-column">
-                      <h3 class="text-center py-4 mb-0">Интернет 100</h3>
-                      <ul class="properties list-unstyled p-4 mb-0">
-                        <li class="d-flex align-items-center mb-2">
-                          <img src="/img/main/speed.svg" alt="" class="me-2" width="24" height="24">
+                          <img src="/img/main/speed.svg" alt="Скорость" class="me-2" width="24" height="24">
                           Скорость: 100 Мбит/с
                         </li>
-                        <li class="d-flex align-items-center mb-2">
-                          <img src="/img/main/pay.svg" alt="" class="me-2" width="24" height="24">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/tv.svg" alt="ТВ" class="me-2" width="24" height="24">
+                          Количество каналов: 71(+3)*
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/pay.svg" alt="Списание" class="me-2" width="24" height="24">
                           Списание: ежедневно
                         </li>
                         <li class="d-flex align-items-center">
-                          <img src="/img/main/router.svg" alt="" class="me-2" width="24" height="24">
+                          <img src="/img/main/router.svg" alt="Аренда роутера" class="me-2" width="24" height="24">
                           Аренда роутера: +150р/мес.
                         </li>
                       </ul>
                       <div class="tariff-price text-center py-3">
-                        520р/мес.
+                        <strong>950</strong> ₽/мес.
                       </div>
                       <button class="btn align-self-center mb-4">
                         Подключиться
@@ -303,50 +290,379 @@
                     </div>
                   </div>
 
-                  <div class="col-xl-4">
+                  <div class="swiper-slide">
                     <div class="tariff-card d-flex flex-column">
-                      <h3 class="text-center py-4 mb-0">Интернет 200</h3>
+                      <h3 class="text-center py-4 mb-0">Интернет КТВ 200</h3>
                       <ul class="properties list-unstyled p-4 mb-0">
-                        <li class="d-flex align-items-center mb-2">
-                          <img src="/img/main/speed.svg" alt="" class="me-2" width="24" height="24">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/speed.svg" alt="Скорость" class="me-2" width="24" height="24">
                           Скорость: 200 Мбит/с
                         </li>
-                        <li class="d-flex align-items-center mb-2">
-                          <img src="/img/main/pay.svg" alt="" class="me-2" width="24" height="24">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/tv.svg" alt="ТВ" class="me-2" width="24" height="24">
+                          Количество каналов: до 250
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/pay.svg" alt="Списание" class="me-2" width="24" height="24">
                           Списание: ежедневно
                         </li>
                         <li class="d-flex align-items-center">
-                          <img src="/img/main/router.svg" alt="" class="me-2" width="24" height="24">
+                          <img src="/img/main/router.svg" alt="Аренда роутера" class="me-2" width="24" height="24">
                           Аренда роутера: +200р/мес.
                         </li>
                       </ul>
                       <div class="tariff-price text-center py-3">
-                        635р/мес.
+                        <strong>799</strong> ₽/мес.
                       </div>
                       <button class="btn align-self-center mb-4">
                         Подключиться
                       </button>
                     </div>
                   </div>
-                  <div class="col-xl-4">
+                  <div class="swiper-slide">
                     <div class="tariff-card d-flex flex-column">
-                      <h3 class="text-center py-4 mb-0">Интернет 300</h3>
+                      <h3 class="text-center py-4 mb-0">Интернет ЦТВ 500</h3>
                       <ul class="properties list-unstyled p-4 mb-0">
-                        <li class="d-flex align-items-center mb-2">
-                          <img src="/img/main/speed.svg" alt="" class="me-2" width="24" height="24">
-                          Скорость: 300 Мбит/с
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/speed.svg" alt="Скорость" class="me-2" width="24" height="24">
+                          Скорость: 500 Мбит/с
                         </li>
-                        <li class="d-flex align-items-center mb-2">
-                          <img src="/img/main/pay.svg" alt="" class="me-2" width="24" height="24">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/tv.svg" alt="ТВ" class="me-2" width="24" height="24">
+                          Количество каналов: 71(+3)*
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/pay.svg" alt="Списание" class="me-2" width="24" height="24">
                           Списание: ежедневно
                         </li>
                         <li class="d-flex align-items-center">
-                          <img src="/img/main/router.svg" alt="" class="me-2" width="24" height="24">
+                          <img src="/img/main/router.svg" alt="Аренда роутера" class="me-2" width="24" height="24">
                           Аренда роутера: +200р/мес.
                         </li>
                       </ul>
                       <div class="tariff-price text-center py-3">
-                        749р/мес.
+                        <strong>1250</strong> ₽/мес.
+                      </div>
+                      <button class="btn align-self-center mb-4">
+                        Подключиться
+                      </button>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="tariff-card d-flex flex-column">
+                      <h3 class="text-center py-4 mb-0">Интернет КТВ 300</h3>
+                      <ul class="properties list-unstyled p-4 mb-0">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/speed.svg" alt="Скорость" class="me-2" width="24" height="24">
+                          Скорость: 300 Мбит/с
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/tv.svg" alt="ТВ" class="me-2" width="24" height="24">
+                          Количество каналов: до 250
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/pay.svg" alt="Списание" class="me-2" width="24" height="24">
+                          Списание: ежедневно
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/router.svg" alt="Аренда роутера" class="me-2" width="24" height="24">
+                          Аренда роутера: +200р/мес.
+                        </li>
+                      </ul>
+                      <div class="tariff-price text-center py-3">
+                        <strong>950</strong> ₽/мес.
+                      </div>
+                      <button class="btn align-self-center mb-4">
+                        Подключиться
+                      </button>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="tariff-card d-flex flex-column">
+                      <h3 class="text-center py-4 mb-0">Интернет ЦТВ 70</h3>
+                      <ul class="properties list-unstyled p-4 mb-0">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/speed.svg" alt="Скорость" class="me-2" width="24" height="24">
+                          Скорость: 70 Мбит/с
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/tv.svg" alt="ТВ" class="me-2" width="24" height="24">
+                          Количество каналов: 71(+3)*
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/pay.svg" alt="Списание" class="me-2" width="24" height="24">
+                          Списание: ежедневно
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/router.svg" alt="Аренда роутера" class="me-2" width="24" height="24">
+                          Аренда роутера: +150р/мес.
+                        </li>
+                      </ul>
+                      <div class="tariff-price text-center py-3">
+                        <strong>690</strong> ₽/мес.
+                      </div>
+                      <button class="btn align-self-center mb-4">
+                        Подключиться
+                      </button>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="tariff-card d-flex flex-column">
+                      <h3 class="text-center py-4 mb-0">Интернет ЦТВ 300</h3>
+                      <ul class="properties list-unstyled p-4 mb-0">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/speed.svg" alt="Скорость" class="me-2" width="24" height="24">
+                          Скорость: 300 Мбит/с
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/tv.svg" alt="ТВ" class="me-2" width="24" height="24">
+                          Количество каналов: 71(+3)*
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/pay.svg" alt="Списание" class="me-2" width="24" height="24">
+                          Списание: ежедневно
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/router.svg" alt="Аренда роутера" class="me-2" width="24" height="24">
+                          Аренда роутера: +200р/мес.
+                        </li>
+                      </ul>
+                      <div class="tariff-price text-center py-3">
+                        <strong>1150</strong> ₽/мес.
+                      </div>
+                      <button class="btn align-self-center mb-4">
+                        Подключиться
+                      </button>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="tariff-card d-flex flex-column">
+                      <h3 class="text-center py-4 mb-0">Интернет КТВ 500</h3>
+                      <ul class="properties list-unstyled p-4 mb-0">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/speed.svg" alt="Скорость" class="me-2" width="24" height="24">
+                          Скорость: 500 Мбит/с
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/tv.svg" alt="ТВ" class="me-2" width="24" height="24">
+                          Количество каналов: до 250
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/pay.svg" alt="Списание" class="me-2" width="24" height="24">
+                          Списание: ежедневно
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/router.svg" alt="Аренда роутера" class="me-2" width="24" height="24">
+                          Аренда роутера: +200р/мес.
+                        </li>
+                      </ul>
+                      <div class="tariff-price text-center py-3">
+                        <strong>1150</strong> ₽/мес.
+                      </div>
+                      <button class="btn align-self-center mb-4">
+                        Подключиться
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="tariff-card d-flex flex-column">
+                      <h3 class="text-center py-4 mb-0">Интернет SMART</h3>
+                      <ul class="properties list-unstyled p-4 mb-0">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/speed.svg" alt="Скорость" class="me-2" width="24" height="24">
+                          Скорость: от 70 Мбит/с
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/tv.svg" alt="ТВ" class="me-2" width="24" height="24">
+                          Количество каналов: 160
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/pay.svg" alt="Списание" class="me-2" width="24" height="24">
+                          Списание: ежедневно
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/main/router.svg" alt="Аренда роутера" class="me-2" width="24" height="24">
+                          Аренда роутера: +200р/мес.
+                        </li>
+                      </ul>
+                      <div class="tariff-price text-center py-3">
+                        <strong>699</strong> ₽/мес.
+                      </div>
+                      <button class="btn align-self-center mb-4">
+                        Подключиться
+                      </button>
+                    </div>
+                  </div>
+
+
+
+                  
+                  
+
+                </div>
+
+                <!-- Пагинация и навигация -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <p>* Подробности уточняйте у оператора</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="televidion_tariffs" class="tv_tariffs mb-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="mb-4">Телевидение</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <div class="swiper tv-tariffs-swiper tariffs-swiper">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide">
+                    <div class="tariff-card d-flex flex-column">
+                      <h3 class="text-center py-4 mb-0">Универсальный(ЦТВ)</h3>
+                      <ul class="properties list-unstyled p-4 mb-0">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/tv.svg" alt="ТВ" class="me-2" width="24" height="24">
+                          Количество каналов: 163
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/tv.svg" alt="ТВ" class="me-2" width="24" height="24">
+                          Доп. ТВ: +150р/мес.
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/tv-station.svg" alt="Списание" class="me-2" width="24" height="24">
+                          Приставка: +100р/мес.
+                        </li>
+                      </ul>
+                      <div class="tariff-price text-center py-3">
+                        <strong>485</strong> ₽/мес.
+                      </div>
+                      <button class="btn align-self-center mb-4">
+                        Подключиться
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="tariff-card d-flex flex-column">
+                      <h3 class="text-center py-4 mb-0">Премиум(ЦТВ)</h3>
+                      <ul class="properties list-unstyled p-4 mb-0">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/tv.svg" alt="ТВ" class="me-2" width="24" height="24">
+                          Количество каналов: 170
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/tv.svg" alt="ТВ" class="me-2" width="24" height="24">
+                          Доп. ТВ: +150р/мес.
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/tv-station.svg" alt="Списание" class="me-2" width="24" height="24">
+                          Приставка: +100р/мес.
+                        </li>
+                      </ul>
+                      <div class="tariff-price text-center py-3">
+                        <strong>529</strong> ₽/мес.
+                      </div>
+                      <button class="btn align-self-center mb-4">
+                        Подключиться
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="tariff-card d-flex flex-column">
+                      <h3 class="text-center py-4 mb-0">Оптимальный(КТВ)</h3>
+                      <ul class="properties list-unstyled p-4 mb-0">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/tv.svg" alt="ТВ" class="me-2" width="24" height="24">
+                          Количество каналов: 250
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/tv.svg" alt="ТВ" class="me-2" width="24" height="24">
+                          Доп. ТВ: +50р/мес.
+                        </li>
+                      </ul>
+                      <div class="tariff-price text-center py-3">
+                        <strong>265</strong> ₽/мес.
+                      </div>
+                      <button class="btn align-self-center mb-4">
+                        Подключиться
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="tariff-card d-flex flex-column">
+                      <h3 class="text-center py-4 mb-0">SMART TV</h3>
+                      <ul class="properties list-unstyled p-4 mb-0">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/tv.svg" alt="ТВ" class="me-2" width="24" height="24">
+                          Количество каналов: 160
+                        </li>
+                      </ul>
+                      <div class="tariff-price text-center py-3">
+                        <strong>290</strong> ₽/мес.
+                      </div>
+                      <button class="btn align-self-center mb-4">
+                        Подключиться
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="tariff-card d-flex flex-column">
+                      <h3 class="text-center py-4 mb-0">БОНУСНЫЙ(КТВ)*</h3>
+                      <ul class="properties list-unstyled p-4 mb-0">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/tv.svg" alt="ТВ" class="me-2" width="24" height="24">
+                          Количество каналов: 250
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/tv.svg" alt="ТВ" class="me-2" width="24" height="24">
+                          Доп. ТВ: +50р/мес.
+                        </li>
+                      </ul>
+                      <div class="tariff-price text-center py-3">
+                        <strong>195</strong> ₽/мес.
+                      </div>
+                      <button class="btn align-self-center mb-4">
+                        Подключиться
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="tariff-card d-flex flex-column">
+                      <h3 class="text-center py-4 mb-0">УДОБНЫЙ*</h3>
+                      <ul class="properties list-unstyled p-4 mb-0">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/tv.svg" alt="ТВ" class="me-2" width="24" height="24">
+                          Количество каналов: 105
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/tv.svg" alt="ТВ" class="me-2" width="24" height="24">
+                          Доп. ТВ: +150р/мес.
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/tv-station.svg" alt="Списание" class="me-2" width="24" height="24">
+                          Приставка: +100р/мес.
+                        </li>
+                      </ul>
+                      <div class="tariff-price text-center py-3">
+                        <strong>290</strong> ₽/мес.
                       </div>
                       <button class="btn align-self-center mb-4">
                         Подключиться
@@ -354,9 +670,92 @@
                     </div>
                   </div>
                 </div>
+
+                <!-- Пагинация и навигация -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
               </div>
             </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <p>* Подробности уточняйте у оператора</p>
+            </div>
+          </div>
+        </div>
       </section>
+
+      <section id="telephon_tariffs" class="tel_tariffs mb-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="mb-4">Телефония</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <div class="swiper tel-tariffs-swiper tariffs-swiper">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide">
+                    <div class="tariff-card d-flex flex-column">
+                      <h3 class="text-center py-4 mb-0">Безлимитный</h3>
+                      <ul class="properties list-unstyled p-4 mb-0">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/teldom.svg" alt="ТВ" class="me-2" width="24" height="24">
+                          Звонки на городские
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/teldom.svg" alt="ТВ" class="me-2" width="24" height="24">
+                          Есть возможность аренды
+                        </li>
+                      </ul>
+                      <div class="tariff-price text-center py-3">
+                        <strong>300</strong> ₽/мес.
+                      </div>
+                      <button class="btn align-self-center mb-4">
+                        Подключиться
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="tariff-card d-flex flex-column">
+                      <h3 class="text-center py-4 mb-0">Домашний*</h3>
+                      <ul class="properties list-unstyled p-4 mb-0">
+                        <li class="d-flex align-items-center">
+                          <img src="/img/tariffs/teldom.svg" alt="ТВ" class="me-2" width="24" height="24">
+                          Есть возможность аренды
+                        </li>
+                      </ul>
+                      <div class="tariff-price text-center py-3">
+                        <strong>50</strong> ₽/мес.
+                      </div>
+                      <button class="btn align-self-center mb-4">
+                        Подключиться
+                      </button>
+                    </div>
+                  </div>
+
+                </div>
+
+                <!-- Пагинация и навигация -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <p>* Подробности уточняйте у оператора</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
   </div>
 
@@ -408,8 +807,9 @@
     </footer>
   </div>
 
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="/js/main.js"></script>
+  <script src="/js/tariffs.js"></script>
 </body>
 
 </html>

@@ -134,20 +134,63 @@ font-weight: 300;
   font-weight: bold;
 }
 
+/*SWIPER*/
+.tariffs-swiper {
+    padding-bottom: 32px;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    height: auto !important;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #000;
+}
+
+.tariffs-swiper .swiper-button-prev,
+.tariffs-swiper .swiper-button-next {
+    color: rgba(0, 0, 0, 0.1);
+    top: 50%;
+    transform: translateY(-50%); 
+    width: 40px;  
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.swiper-wrapper {
+    display: flex;
+    align-items: stretch; /* Это ключевое свойство — растягивает слайды по высоте */
+}
+
+
 /* TARIFF CARD */
+
 .tariff-card{
     color: black;
-    background-color: white;
+    /* background-color: #F5F5F5; */
     border: 2px solid #eaeaea;
     border-radius: 10px;
     transition: all 0.3s ease;
+    display: flex; /* Важно! */
+    flex-direction: column; /* Важно! */
+    flex: 1; /* Растягивается на всю высоту слайда */
 }
+
+.tariff-card h3{
+    text-transform: uppercase;
+}
+
 .tariff-card:hover{
     border: 2px solid #C91C98;
 }
 
 .tariff-price {
-   font-weight: 500;
+   font-weight: 400;
    font-size: 30px; 
 }
 
@@ -159,6 +202,10 @@ font-weight: 300;
     border: 2px solid #eaeaea;
     border-left: none;
     border-right: none;
+    flex: 1; /* Растягивается на всё доступное пространство */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Выравниваем контент по верху */
 }
 
 /* FOOTER */
