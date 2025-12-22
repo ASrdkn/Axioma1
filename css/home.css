@@ -57,7 +57,6 @@ main.main{
     background-color: white;
     border: 2px solid #C91C98;
     border-radius: 100px;
-    padding: 5px 32px;
     text-align: center;
     transition: all 0.3s ease;
 }
@@ -166,11 +165,12 @@ main.main{
     font-size: 24px;
     display: inline-flex;
     align-items: center;
-    gap: 4px; /* расстояние между текстом и стрелкой */
+    gap: 4px;
     transition: all 0.3s ease;
 }
 .link_all_tariffs:hover {
-  color: #C91C98;
+
+  font-weight: 400;
 }
 .arrow_tariffs{
     width: 26px;

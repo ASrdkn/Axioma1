@@ -2,7 +2,6 @@
 
 html, body{
     font-family: Roboto Condensed;
-    /* background-color: #F8F8F8; */
     color: #000;
 }
 
@@ -56,7 +55,6 @@ main.main{
     background-color: white;
     border: 2px solid #C91C98;
     border-radius: 100px;
-    padding: 5px 32px;
     text-align: center;
     transition: all 0.3s ease;
 }
@@ -117,7 +115,7 @@ main.main{
 .advantages li {
   position: relative;
   padding-left: 1.5rem; 
-font-weight: 300;
+  font-weight: 300;
 }
 
 .advantage-title{
@@ -164,7 +162,7 @@ font-weight: 300;
 
 .swiper-wrapper {
     display: flex;
-    align-items: stretch; /* Это ключевое свойство — растягивает слайды по высоте */
+    align-items: stretch;
 }
 
 
@@ -172,13 +170,13 @@ font-weight: 300;
 
 .tariff-card{
     color: black;
-    /* background-color: #F5F5F5; */
+    background-color: #F5F5F5;
     border: 2px solid #eaeaea;
     border-radius: 10px;
     transition: all 0.3s ease;
-    display: flex; /* Важно! */
-    flex-direction: column; /* Важно! */
-    flex: 1; /* Растягивается на всю высоту слайда */
+    display: flex; 
+    flex-direction: column; 
+    flex: 1; 
 }
 
 .tariff-card h3{
@@ -186,7 +184,23 @@ font-weight: 300;
 }
 
 .tariff-card:hover{
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-tariffs{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 28px;
+    color: black;
+    background-color: white;
     border: 2px solid #C91C98;
+    border-radius: 100px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.btn-tariffs:hover{
+    transform: scale(1.05);
 }
 
 .tariff-price {
@@ -202,10 +216,10 @@ font-weight: 300;
     border: 2px solid #eaeaea;
     border-left: none;
     border-right: none;
-    flex: 1; /* Растягивается на всё доступное пространство */
+    flex: 1; 
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Выравниваем контент по верху */
+    justify-content: center;
 }
 
 /* FOOTER */
@@ -239,7 +253,11 @@ font-weight: 300;
 
 @media (max-width: 767.98px) {
   .nav_footer {
-    gap: 0rem; /* gap-1 */
-    /* или 0.5rem — gap-2 */
+    gap: 0rem;
+  }
+}
+@media (min-width: 992px) {
+  #telephon_tariffs .swiper-wrapper {
+    justify-content: center;
   }
 }
