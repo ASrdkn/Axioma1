@@ -47,32 +47,12 @@ main.main{
     flex: 1 1 auto;
 }
 
-.btn{
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 30px;
-    color: black;
-    background-color: white;
-    border: 2px solid #C91C98;
-    border-radius: 100px;
-    text-align: center;
-    transition: all 0.3s ease;
-}
-
-.btn:hover {
-  color: black;
-  background-color: white;
-  border-color: #C91C98;
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-}
-
 
 /* HEADER */
 .navbar-nav .nav-link {
-  color: #000 !important;
-  font-weight: 400;
-  font-size: 20px;
+    color: #000 !important;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .header_menu-link:hover{
@@ -91,6 +71,26 @@ main.main{
 }
 
 /* BANNER */
+.btn{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    border: 2px solid #C91C98;
+    border-radius: 100px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+    border-color: #C91C98;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
 .banner_content p{
     font-weight: 400;
     font-size: 24px;
@@ -98,24 +98,24 @@ main.main{
 
 /* LIST ADVANTAGES */
 .tariffs_advantages {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .advantages {
-  list-style: none; 
-  padding-left: 0; 
-  margin: 0;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5; 
+    list-style: none; 
+    padding-left: 0; 
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5; 
 }
 
 .advantages li {
-  position: relative;
-  padding-left: 1.5rem; 
-  font-weight: 300;
+    position: relative;
+    padding-left: 1.5rem; 
+    font-weight: 300;
 }
 
 .advantage-title{
@@ -123,13 +123,13 @@ main.main{
 }
 
 .advantages li::before {
-  content: "•";
-  position: absolute;
-  left: 0;
-  color: #C91C98; 
-  font-size: 1.4em;
-  line-height: 1;
-  font-weight: bold;
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #C91C98; 
+    font-size: 1.4em;
+    line-height: 1;
+    font-weight: bold;
 }
 
 /*SWIPER*/
@@ -167,7 +167,6 @@ main.main{
 
 
 /* TARIFF CARD */
-
 .tariff-card{
     color: black;
     background-color: #F5F5F5;

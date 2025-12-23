@@ -2,7 +2,6 @@
 
 html, body{
     font-family: Roboto Condensed;
-    /* background-color: #F8F8F8; */
     color: #000;
 }
 
@@ -51,9 +50,9 @@ main.main{
 
 /* HEADER */
 .navbar-nav .nav-link {
-  color: #000 !important;
-  font-weight: 400;
-  font-size: 20px;
+    color: #000 !important;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .header_menu-link:hover{
@@ -78,38 +77,56 @@ main.main{
 }
 
 /* CARD */
-
-.servicies_card{
+.business_card{
     border: 2px solid #eaeaea;
     border-radius: 20px;
 }
 
-.servicies_card h2{
+.business_card h2{
     color: #c91c98;
 }
 
-.servicies_card strong{
+.business_card strong{
     font-weight: 500;
 }
 
-.servicies_card li{
-    list-style-type: disc;
+.li_business {
+    list-style: none; 
+    padding-left: 0; 
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5; 
+}
+
+.li_business li {
+    position: relative;
+    padding-left: 1.5rem; 
     font-weight: 300;
-    color: #000;
+}
+
+.li_business li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #C91C98; 
+    font-size: 1.4em;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.business_card a{
+    font-weight: 400;
     font-size: 24px;
 }
 
-.servicies_card a{
+.business_card a:hover{
     font-weight: 500;
-    font-size: 24px;
 }
 
-.servicies_card:hover{
-  color: black;
-  background-color: white;
-  border-color: #C91C98;
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+.business_card:hover{
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* FOOTER */

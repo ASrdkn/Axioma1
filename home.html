@@ -357,7 +357,7 @@
                 <div class="col-md-4 mb-md-0 mb-3 text-center">
                   <div class="d-flex flex-column align-items-center">
                     <img src="/img/main/revcall.svg" alt="revcall" class="mb-3">
-                    <button class="btn_connection">
+                    <button type="button" class="btn_connection py-1 px-4">
                       Обратный звонок
                     </button>
                   </div>
@@ -366,7 +366,7 @@
                 <div class="col-md-4 mb-md-0 mb-3 text-center">
                   <div class="d-flex flex-column align-items-center">
                     <img src="/img/main/chat.svg" alt="chat" class="mb-3">
-                    <button class="btn_connection">
+                    <button type="button" class="btn_connection py-1 px-4">
                       Написать в чат
                     </button>
                   </div>
@@ -375,9 +375,9 @@
                 <div class="col-md-4 mb-md-0 mb-3 text-center">
                   <div class="d-flex flex-column align-items-center">
                     <img src="/img/main/call.svg" alt="call" class="mb-3">
-                    <button class="btn_connection">
+                    <a href="tel:+74952285555" class="btn_connection py-1 px-4">
                       Позвонить
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -385,7 +385,7 @@
           </div>
         </section>
 
-        <section class="address_office mb-5">
+        <section id="address" class="address_office mb-5">
           <div class="container-fluid">
             <div class="row">
               <div class="col-12">
@@ -396,9 +396,7 @@
             <div class="map">
               <div class="row">
                 <div class="col-12 mb-md-0 mb-3 text-center">
-                  <!-- Обёртка для адаптивной карты -->
                   <div style="position: relative; width: 100%; max-width: 100%; padding-top: 56.25%; /* 16:9 соотношение */">
-                    <!-- Карта — растягивается на всю область обёртки -->
                     <iframe 
                       src="https://yandex.ru/map-widget/v1/?um=constructor%3A54000cb540462747e8ab7aebb3781ac0c955b0f84968e7e3ba7b78dfc1a7aefc&amp  ;source=constructor"
                       frameborder="0"

@@ -47,7 +47,29 @@ main.main{
     flex: 1 1 auto;
 }
 
+/* HEADER */
+.navbar-nav .nav-link {
+    color: #000 !important; 
+    font-weight: 400;
+    font-size: 20px;
+}
 
+.header_menu-link:hover{
+    text-shadow: 0 0 0.6px;
+}
+
+.header_menu-link_active{
+    font-weight: 500 !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url(/img/menu.svg);
+}
+.navbar-toggler {
+    border: none;
+}
+
+/* BANNER */
 .btn{
     text-transform: uppercase;
     font-weight: 500;
@@ -61,13 +83,19 @@ main.main{
 }
 
 .btn:hover {
-  color: black;
-  background-color: white;
-  border-color: #C91C98;
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    color: black;
+    background-color: white;
+    border-color: #C91C98;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
+.banner_content p{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+/* CARD SERVICIES */
 .card{
     position: relative;
     padding-left: 20px;
@@ -87,38 +115,6 @@ main.main{
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     border-color: #D5D4D4;
 }
-
-/* HEADER */
-
-.navbar-nav .nav-link {
-  color: #000 !important; 
-  font-weight: 400;
-  font-size: 20px;
-}
-
-.header_menu-link:hover{
-    text-shadow: 0 0 0.6px;
-}
-
-.header_menu-link_active{
-    font-weight: 500 !important;
-}
-
-.navbar-toggler-icon {
-    background-image: url(/img/menu.svg);
-}
-.navbar-toggler {
-    border: none;
-}
-
-
-
-
-.banner_content p{
-    font-weight: 400;
-    font-size: 24px;
-}
-
 
 .card_arrow{
     position: absolute;
@@ -163,9 +159,7 @@ main.main{
 }
 
 
-
 /* TARIFFS */
-
 .tariff-card{
     color: black;
     background-color: #F5F5F5;
@@ -220,7 +214,6 @@ main.main{
     justify-content: center;
 }
 
-
 .link_all_tariffs{
     font-weight: 300;
     font-size: 24px;
@@ -229,27 +222,34 @@ main.main{
     gap: 4px;
     transition: all 0.3s ease;
 }
-.link_all_tariffs:hover {
 
+.link_all_tariffs:hover {
   font-weight: 400;
 }
+
 .arrow_tariffs{
     width: 26px;
     height: 26px;
 }
 
 
-
-
-
+/* CONNECTION */
 .btn_connection{
     font-weight: 400;
     font-size: 24px;
-    width: 230px;
-    height: 40px;
     border: 2px solid #eaeaea;
     background-color: white;
     border-radius: 100px;
+    transition: all 0.3s ease;
+}
+
+.btn_connection:hover{
+    font-weight: 500;
+    font-size: 24px;
+    border: 2px solid #eaeaea;
+    background-color: white;
+    border-radius: 100px;
+    transform: scale(1.05);
 }
 
 /* FOOTER */
@@ -283,7 +283,6 @@ main.main{
 
 @media (max-width: 767.98px) {
   .nav_footer {
-    gap: 0rem; /* gap-1 */
-    /* или 0.5rem — gap-2 */
+    gap: 0rem;
   }
 }

@@ -2,7 +2,6 @@
 
 html, body{
     font-family: Roboto Condensed;
-    /* background-color: #F8F8F8; */
     color: #000;
 
 }
@@ -52,9 +51,9 @@ main.main{
 
 /* HEADER */
 .navbar-nav .nav-link {
-  color: #000 !important;
-  font-weight: 400;
-  font-size: 20px;
+    color: #000 !important;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .header_menu-link:hover{
@@ -72,12 +71,16 @@ main.main{
     border: none;
 }
 
+
 /* BANNER */
 .banner_content p{
     font-weight: 400;
     font-size: 24px;
 }
 
+.banner span:hover{
+    color: #C91C98;
+}
 
 /*SWIPER*/
 .device-swiper {
@@ -108,12 +111,11 @@ main.main{
 }
 
 @media (min-width: 992px) {
-
-  .tv-swiper .swiper-pagination,
-  .tv-swiper .swiper-button-next,
-  .tv-swiper .swiper-button-prev {
-    display: none !important;
-  }
+    .tv-swiper .swiper-pagination,
+    .tv-swiper .swiper-button-next,
+    .tv-swiper .swiper-button-prev {
+        display: none !important;
+    }
 }
 
 /*DEVICE CARD*/
@@ -134,8 +136,7 @@ main.main{
 }
 
 .device-card:hover {
-    border: 2px solid #C91C98;
-    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
 }
 
 .device-card img {
@@ -198,8 +199,8 @@ main.main{
 }
 
 @media (max-width: 767.98px) {
-  .nav_footer {
-    gap: 0rem;
-  }
+    .nav_footer {
+        gap: 0rem;
+    }
 }
 

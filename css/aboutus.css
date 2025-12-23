@@ -1,120 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
 
 html, body{
-    font-family: Roboto Condensed;
-    /* background-color: #F8F8F8; */
-    color: #000;
+  font-family: Roboto Condensed;
+  /* background-color: #F8F8F8; */
+  color: #000;
 }
 
 li{
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a{
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 h1{
-    text-transform: uppercase;
-    font-size: 64px;
-    font-weight: 700;
-    margin: 0;
+  text-transform: uppercase;
+  font-size: 64px;
+  font-weight: 700;
+  margin: 0;
 }
 
 h2{
-    text-transform: uppercase;
-    font-size: 30px;
-    font-weight: 500;
-    margin: 0;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0;
 }
 p{
-    font-weight: 400;
-    font-size: 24px;
-    margin: 0;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
 }
 
 .wrapper{
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 
-    min-width: 320px;
-    max-width: 1202px;
-    margin: 0 auto;
+  min-width: 320px;
+  max-width: 1202px;
+  margin: 0 auto;
 }
 
 main.main{
-    flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 
 /* HEADER */
 .navbar-nav .nav-link {
-  color: #000 !important;
-  font-weight: 400;
-  font-size: 20px;
+color: #000 !important;
+font-weight: 400;
+font-size: 20px;
 }
 
 .header_menu-link:hover{
-    text-shadow: 0 0 0.6px;
+  text-shadow: 0 0 0.6px;
 }
 
 .header_menu-link_active{
-    font-weight: 500 !important;
+  font-weight: 500 !important;
 }
 
 .navbar-toggler-icon {
-    background-image: url(/img/menu.svg);
+  background-image: url(/img/menu.svg);
 }
 .navbar-toggler {
-    border: none;
+  border: none;
 }
 
 /* BANNER */
 .banner_content p{
-    font-weight: 400;
-    font-size: 24px;
-}
-
-/* FOOTER */
-.footer_line{
-    border: 1.5px solid #D5D4D4;
-}
-
-.nav_footer{
-    font-weight: 400;
-    font-size: 20px;
-    gap: 1rem;
-}
-
-.contact_info{
-    font-weight: 300;
-}
-
-.konf{
-    font-weight: 300;
-    font-size: 14px;
-    color: #6b6a69;
-}
-
-.footer_menu-link:hover{
-    text-shadow: 0 0 0.6px;
-}
-
-.footer_menu-link_active{
-    font-weight: 500 !important;
-}
-
-@media (max-width: 767.98px) {
-  .nav_footer {
-    gap: 0rem; /* gap-1 */
-    /* или 0.5rem — gap-2 */
-  }
+  font-weight: 400;
+  font-size: 24px;
 }
 
 
 /*ACCORDION*/
-
 /*Основные стили кнопки*/
 .accordion-button {
   text-transform: uppercase;
@@ -122,9 +85,7 @@ main.main{
   font-weight: 500;
   margin: 0;
   color: #000000;
-  transition: 
-    color 0.3s ease, 
-    transform 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .accordion-item:hover .accordion-button {
@@ -152,10 +113,7 @@ main.main{
   border-radius: 12px;
   margin-bottom: 1rem;
   overflow: hidden;
-  transition: 
-    border-color 0.3s ease, 
-    box-shadow 0.3s ease,
-    transform 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .accordion-item:hover {
@@ -183,8 +141,7 @@ main.main{
 }
 
 /*CARD*/
-
-.li_card_abouts {
+.li_abouts {
   list-style: none; 
   padding-left: 0; 
   margin: 0;
@@ -194,13 +151,13 @@ main.main{
   line-height: 1.5; 
 }
 
-.li_card_abouts li {
-    position: relative;
-    padding-left: 1.5rem; 
-    font-weight: 300;
+.li_abouts li {
+  position: relative;
+  padding-left: 1.5rem; 
+  font-weight: 300;
 }
 
-.li_card_abouts li::before {
+.li_abouts li::before {
   content: "•";
   position: absolute;
   left: 0;
@@ -211,27 +168,27 @@ main.main{
 }
 
 .link_address{
-    font-weight: 300;
-    font-size: 24px;
-    display: inline-flex;
-    align-items: center;
-    gap: 4px; /* расстояние между текстом и стрелкой */
-    transition: all 0.3s ease;
+  font-weight: 300;
+  font-size: 24px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.3s ease;
 }
 .link_address:hover {
-  color: #C91C98;
   font-weight: 400;
 }
 
 .arrow_address{
-    width: 26px;
-    height: 26px;
+  width: 26px;
+  height: 26px;
 }
+
 
 /*DOC*/
 .doc_icon{
-    width: 26px;
-    height: 26px;
+  width: 26px;
+  height: 26px;
 }
 
 .documents_list {
@@ -248,16 +205,49 @@ main.main{
   align-items: flex-start;     
   gap: 12px;              
   text-decoration: none;
-
 }
 
 .document_link span:hover {
-    font-weight: 400;
-    color: #C91C98;
+  font-weight: 400;
+}
+
+.name_doc{
+  font-weight: 300;
+  font-size: 24px;
 }
 
 
-.name_doc{
-    font-weight: 300;
-    font-size: 24px;
+/* FOOTER */
+.footer_line{
+  border: 1.5px solid #D5D4D4;
+}
+
+.nav_footer{
+  font-weight: 400;
+  font-size: 20px;
+  gap: 1rem;
+}
+
+.contact_info{
+  font-weight: 300;
+}
+
+.konf{
+  font-weight: 300;
+  font-size: 14px;
+  color: #6b6a69;
+}
+
+.footer_menu-link:hover{
+  text-shadow: 0 0 0.6px;
+}
+
+.footer_menu-link_active{
+  font-weight: 500 !important;
+}
+
+@media (max-width: 767.98px) {
+.nav_footer {
+  gap: 0rem;
+}
 }

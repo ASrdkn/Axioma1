@@ -2,7 +2,6 @@
 
 html, body{
     font-family: Roboto Condensed;
-    /* background-color: #F8F8F8; */
     color: #000;
 }
 
@@ -48,33 +47,11 @@ main.main{
     flex: 1 1 auto;
 }
 
-.btn{
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 30px;
-    color: black;
-    background-color: white;
-    border: 2px solid #C91C98;
-    border-radius: 100px;
-    padding: 5px 32px;
-    text-align: center;
-    transition: all 0.3s ease;
-}
-
-.btn:hover {
-  color: black;
-  background-color: white;
-  border-color: #C91C98;
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-}
-
-
 /* HEADER */
 .navbar-nav .nav-link {
-  color: #000 !important;
-  font-weight: 400;
-  font-size: 20px;
+    color: #000 !important;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .header_menu-link:hover{
@@ -119,11 +96,23 @@ main.main{
 }
 
 .servicies_card:hover{
-  color: black;
-  background-color: white;
-  border-color: #C91C98;
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-servicies{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 28px;
+    color: black;
+    background-color: white;
+    border: 2px solid #C91C98;
+    border-radius: 100px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.btn-servicies:hover{
+    transform: scale(1.05);
 }
 
 /* FOOTER */
@@ -157,7 +146,6 @@ main.main{
 
 @media (max-width: 767.98px) {
   .nav_footer {
-    gap: 0rem; /* gap-1 */
-    /* или 0.5rem — gap-2 */
+    gap: 0rem;
   }
 }

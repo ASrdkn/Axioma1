@@ -26,3 +26,4 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   let popularTariffsSwiper = initSwiper('.popular-tariffs-swiper');
 });
+
